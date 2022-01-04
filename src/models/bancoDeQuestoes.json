@@ -1,0 +1,34 @@
+[
+    {
+        "id": 100,
+        "enunciado": "Qual é o bicho que transmite a doença de chagas?",
+        "errada1": "Abelha",
+        "errada2": "Barata",
+        "errada3": "Pulga",
+        "certa": "Barbeiro"
+    },
+    {
+        "id": 101,
+        "enunciado": "Qual é o fruto conhecido no Norte e no Nordeste como Jerimum?",
+        "errada1": "Caju",
+        "errada2": "Côco",
+        "errada3": "Xuxu",
+        "certa": "Abóbora"
+    },
+    {
+        "id": 102,
+        "enunciado": "Qual é o fruto conhecido no Norte e no Nordeste como Jerimum?",
+        "errada1": "Caju",
+        "errada2": "Côco",
+        "errada3": "Xuxu",
+        "certa": "Abóbora"
+    },
+    {
+        "id": 103,
+        "enunciado": "Qual é o fruto conhecido no Norte e no Nordeste como Jerimum?",
+        "errada1": "Caju",
+        "errada2": "Côco",
+        "errada3": "Xuxu",
+        "certa": "Abóbora"
+    }
+]
