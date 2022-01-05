@@ -2,13 +2,13 @@ import type { NextApiRequest, NextApiResponse } from "next"
 import QuestaoModel from "../../../models/QuestaoModel"
 import questoes from "../../../utils/criarQuestoes"
 
-type Data = {
-    questao: QuestaoModel
+interface IQuestionData {
+    data: QuestaoModel
 }
 
 export default function handler(
     req: NextApiRequest,
-    res: NextApiResponse<Data>
+    res: NextApiResponse<IQuestionData>
 ) {
     const id = +req.query.id
     const questao = questoes
@@ -20,5 +20,5 @@ export default function handler(
         return
     }
 
-    res.send({ questao })
+    res.send({ data: questao })
 }

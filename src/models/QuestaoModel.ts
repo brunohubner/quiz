@@ -26,6 +26,10 @@ export default class QuestaoModel {
         return this.acertou
     }
 
+    naoRespondida() {
+        return !this.respondida
+    }
+
     embaralharRespostas(): QuestaoModel {
         const respostasEmbaralhadas = embaralhar(this.respostas)
         return new QuestaoModel(

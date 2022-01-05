@@ -1,5 +1,5 @@
 import QuestaoModel from "../models/QuestaoModel"
-import bancoDeQuestoes from "../models/bancoDeQuestoes.json"
+import bancoDeQuestoes from "../db/bancoDeQuestoes.json"
 import RespostaModel from "../models/RespostaModel"
 
 const questoes: QuestaoModel[] = bancoDeQuestoes.map(questao => {

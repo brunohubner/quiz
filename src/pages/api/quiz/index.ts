@@ -1,16 +1,15 @@
 import type { NextApiRequest, NextApiResponse } from "next"
-import QuestaoModel from "../../../models/QuestaoModel"
 import questoes from "../../../utils/criarQuestoes"
 import embaralhar from "../../../utils/embaralhar"
 
-type Data = {
-    ids?: number[]
+interface IQuestionsIdsData {
+    data: number[]
 }
 
 export default function handler(
     req: NextApiRequest,
-    res: NextApiResponse<Data>
+    res: NextApiResponse<IQuestionsIdsData>
 ) {
     const ids = embaralhar(questoes.map(questao => questao.getId()))
-    res.send({ ids })
+    res.send({ data: ids })
 }

@@ -1,0 +1,130 @@
+[
+    {
+        "id": 100,
+        "enunciado": "Qual bicho transmite a Doença de Chagas?",
+        "errada1": "Abelha",
+        "errada2": "Barata",
+        "errada3": "Pulga",
+        "certa": "Barbeiro"
+    },
+    {
+        "id": 101,
+        "enunciado": "Qual é o fruto conhecido no Norte e no Nordeste como \"jerimum?\"",
+        "errada1": "Caju",
+        "errada2": "Côco",
+        "errada3": "Xuxu",
+        "certa": "Abóbora"
+    },
+    {
+        "id": 102,
+        "enunciado": "Qual é o triângulo que tem todos os lados diferentes?",
+        "errada1": "Equilátero",
+        "errada2": "Isóceles",
+        "errada3": "Trapézio",
+        "certa": "Escaleno"
+    },
+    {
+        "id": 103,
+        "enunciado": "Quem compôs o Hino da Independência?",
+        "errada1": "Castro Alves",
+        "errada2": "Manuel Bandeira",
+        "errada3": "Carlos Gomes",
+        "certa": "Dom Pedro I"
+    },
+    {
+        "id": 104,
+        "enunciado": "Qual é o antônimo de \"malograr\"?",
+        "errada1": "Perder",
+        "errada2": "Fracassar",
+        "errada3": "Desprezar",
+        "certa": "Conseguir"
+    },
+    {
+        "id": 105,
+        "enunciado": "Em que país nasceu Carmen Miranda?",
+        "errada1": "Argentina",
+        "errada2": "Espanha",
+        "errada3": "Brasil",
+        "certa": "Portugal"
+    },
+    {
+        "id": 106,
+        "enunciado": "Qual foi o último Presidente do período da ditadura militar no Brasil?",
+        "errada1": "Costa e Silva",
+        "errada2": "Emílio Médici",
+        "errada3": "Ernesto Geisel",
+        "certa": "João Figueiredo"
+    },
+    {
+        "id": 107,
+        "enunciado": "Seguindo a sequência do baralho, qual carta vem depois do dez?",
+        "errada1": "Ás",
+        "errada2": "Nove",
+        "errada3": "Rei",
+        "certa": "Valete"
+    },
+    {
+        "id": 108,
+        "enunciado": "O adjetivo \"venoso\" está relacionado a:",
+        "errada1": "Vela",
+        "errada2": "Vento",
+        "errada3": "Vênia",
+        "certa": "Veia"
+    },
+    {
+        "id": 109,
+        "enunciado": "Que nome se dá à purificação por meio da água?",
+        "errada1": "Abrupção",
+        "errada2": "Abolição",
+        "errada3": "Abnegação",
+        "certa": "Ablução"
+    },
+    {
+        "id": 110,
+        "enunciado": "Qual montanha se localiza entre a fronteira do Tibet com o Nepal?",
+        "errada1": "Monte Branco",
+        "errada2": "Monte Fuji",
+        "errada3": "onte Carlo",
+        "certa": "Monte Everest"
+    },
+    {
+        "id": 111,
+        "enunciado": "Em que parte do corpo se encontra a epiglote?",
+        "errada1": "Estômago",
+        "errada2": "Pâncreas",
+        "errada3": "Rim",
+        "certa": "Pescoço"
+    },
+    {
+        "id": 112,
+        "enunciado": "A compensação por perda é chamada de...",
+        "errada1": "Déficit",
+        "errada2": "Indexação",
+        "errada3": "Indébito",
+        "certa": "Indenização"
+    },
+    {
+        "id": 113,
+        "enunciado": "Que personagem do folclore brasileiro tem uma perna só?",
+        "errada1": "Cuca",
+        "errada2": "Curupira",
+        "errada3": "Boitatá",
+        "certa": "Saci-pererê"
+    },
+    {
+        "id": 114,
+        "enunciado": "Quem é o \"patrono\" do Exército Brasileiro?",
+        "errada1": "Marechal Deodoro",
+        "errada2": "Barão de Mauá",
+        "errada3": "Marquês de Pombal",
+        "certa": "Duque de Caxias"
+    },
+    {
+        "id": 115,
+        "enunciado": "Qual é o coletivo de cães?",
+        "errada1": "Manada",
+        "errada2": "Alcateia",
+        "errada3": "Rebanho",
+        "certa": "Matilha"
+    }
+]

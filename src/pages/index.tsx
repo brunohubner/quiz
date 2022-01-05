@@ -1,17 +1,31 @@
-import type { NextPage } from "next"
 import Head from "next/head"
+import Questionario from "../components/Questionario"
+import useQuiz from "../hooks/useQuiz"
 import styles from "../styles/Home.module.css"
 
-const Home: NextPage = () => {
+export default function Home() {
+    const { questao, idProximaPergunta, irPraProximoPasso, questaoRespondida } =
+        useQuiz()
+
     return (
-        <div className={styles.container}>
+        <>
             <Head>
-                <title>Bruno Hubner - Porta Premiada</title>
-                <meta name="description" content="Porta Premiada" />
-                <link rel="icon" href="/favicon.ico" />
+                <title>Bruno Hubner - Quiz</title>
+                <meta name="description" content="Quiz" />
             </Head>
-        </div>
+            <div className={styles.home}>
+                {questao ? (
+                    <Questionario
+                        questao={questao}
+                        tempoParaResposta={15}
+                        irPraProximoPasso={irPraProximoPasso}
+                        questaoRespondida={questaoRespondida}
+                        ultima={idProximaPergunta() === undefined}
+                    ></Questionario>
+                ) : (
+                    false
+                )}
+            </div>
+        </>
     )
 }
-
-export default Home
